@@ -1,0 +1,17 @@
+.tost_wrap{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10000;
+    transition: 0.3s ease-in;
+}
+.tost_wrap .content{
+    background: rgb(7, 124, 7);
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+
+}

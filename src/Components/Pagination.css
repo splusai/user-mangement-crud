@@ -1,0 +1,34 @@
+.pagination_wrap{
+    display: flex;
+    justify-content: space-between;
+    gap: 7px;
+    align-items: center;
+    margin: 20px 0;
+}
+.pagination_wrap .limit select{
+background: transparent;
+padding: 5px;
+color: var(--white);
+}
+.pagination_wrap .limit select option{
+    background: var(--tblbgcolor);
+    color: var(--fontcolor);
+}
+.pagebtn_wrap{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+
+}
+.pagebtn_wrap .pagenum{color: var(--white);display: flex;gap: 3px;align-items: center;}
+.pagebtn_wrap .pagebtn{
+    background-color: var(--tblbgcolor);
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+.pagebtn.disebled{
+    opacity: 0.5;
+    cursor: not-allowed;
+}

@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "uname": "eeeeeeeee",
+      "uaddress": "eeeeeeeeeee",
+      "umobile": "2222222222",
+      "uemail": "s#@k.xom",
+      "ugender": "male",
+      "ucity": "Ahmedabad",
+      "ucheck": true,
+      "id": 16
+    },
+    {
+      "uname": "ram bhai",
+      "uaddress": "dddddd",
+      "umobile": "ddwwwd",
+      "uemail": "dj@j.com",
+      "ugender": "female",
+      "ucity": "Surat",
+      "ucheck": true,
+      "id": 54
+    }
+  ]
+}

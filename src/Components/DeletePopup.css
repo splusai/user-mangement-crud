@@ -1,0 +1,37 @@
+.delmodal{
+    background: rgba(0,0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    height: 100vh;
+}
+.delmodal .close{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.delmodal .content{
+    position: absolute;
+    background-color: var(--tblbgcolor);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+   text-align: center;
+   padding: 20px;
+}
+.delmodal .content svg{width: 30px;}
+.delmodal .content h3{
+    margin: 20px 0;
+    color: red;
+}
+.delmodal .content p{
+    margin: 15px 0;
+    color: var(--fontcolor);
+}
+.delmodal .btn:nth-child(1){
+    background: #ED2B2A;
+}
+.delmodal .btn:nth-child(2){
+    background: #0A2647;
+}
